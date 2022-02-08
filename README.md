@@ -38,9 +38,7 @@ Liste as principais funcionalidades do sistema implementado. Você pode usar de 
 
 Aqui você deve apresentar todos os requisitos para que sua aplicação funcione corretamente. Você também pode listar dependências opcionais, se houver.
 
-Começe indicando qual, ou quais, sistemas operacionais são suportados. Por exemplo:
-
-> Este sistema foi desenvolvido e amplamente testado em ambientes Unix ...
+Começe indicando qual, ou quais, sistemas operacionais são suportados. Por exemplo: `Este sistema foi desenvolvido e amplamente testado em ambientes Unix ...`
 
 Para cada uma das dependências do sistema é importatne listar também a versão mínima necessária. Por exemplo:
 
@@ -96,3 +94,5 @@ Orientado pelo professor [Beltrano Silva](https://github.com/beltrano-silva) e p
 Este sistema está disponível sob a licença [XXXX](https://opensource.org/licenses/).
 
 > :warning: Você deve discutir a licença com seu professor orientador!
+
+> :warning: Lembre-se também de criar, ou alterar, o arquivo LICENSE deste repositório para refletir adequadamente a licença atual.
