@@ -1,4 +1,4 @@
-# <center>Práticas em Desenvolvimento de Software (Repositório Modelo)</center>
+# <p align="center"> Práticas em Desenvolvimento de Software <br/> (Repositório Modelo) </p>
 
 <p align="center">
   <img src="Logo1-NES_branco.png" height="175px" />
