@@ -16,7 +16,7 @@ Use desta seção para apresentar seu produto de forma simples e sussinta, assim
 - [Funcionalidades](#funcionalidades)
 - [Requisitos](#requisitos)
 - [Instalação](#instalacao)
-- [Como usar](#como-usar)
+- [Primeiros passos](#primeiros-passos)
 - [Autores e histórico](#autores-e-historico)
 - [Licença](#licenca)
 
@@ -36,10 +36,63 @@ Liste as principais funcionalidades do sistema implementado. Você pode usar de 
 
 ## Requisitos
 
-## Instalação
+Aqui você deve apresentar todos os requisitos para que sua aplicação funcione corretamente. Você também pode listar dependências opcionais, se houver.
 
-## Como usar
+Começe indicando qual, ou quais, sistemas operacionais são suportados. Por exemplo:
+
+> Este sistema foi desenvolvido e amplamente testado em ambientes Unix ...
+
+Para cada uma das dependências do sistema é importatne listar também a versão mínima necessária. Por exemplo:
+
+- [Docker](https://www.docker.com/) (versão 20 ou superior)
+  - Se necessário, você pode deixar alguma observação ou instrução necessária.
+- [Python](https://www.python.org/) (versão 3.10 ou superior)
+- [Node.js](https://nodejs.org/) (versão 16)
+- ...
+
+## Instalação / Implantação
+
+Nesta seção você deverá trazer um passo a passo do que é necessário para a implantação do sistema desenvolvido.
+
+Preferencialmente, use de ferramentas que automatizem a instalação/implantação do sistema, ou partes dele. Por exemplo, se você precisa compilar os arquivos do sistema para utilizá-lo, uma ótima opção é o [Make](https://www.gnu.org/software/make/). Com ele é possível automatizar todo processo de preparação e compilaçãocom um simples comando no terminal:
+
+```sh
+make
+```
+
+Outras ferramentas podem, inclusive, automatizar o processo de inicialização dos serviços da ferramenta, como o [Docker Compose](https://docs.docker.com/compose/):
+
+```sh
+docker-compose up -d
+```
+
+Se o sistema precisa ser implantado manualmente, descreva detalhadamente os passos necessários para a correta instalação. Neste caso, u
+
+1. Abra um terminal no diretório do projeto ....
+2. Instale as dependências usando o comando xxxx ...
+3. Compile o código fonte com o comando yyyy ...
+4. ....
+
+Por fim, lembre-se de destacar quando necessário quais variáveis de ambientes (do inglês _environment variables_) são utilizadas ou necessárias para o processo. Muitas vezes a falta destas variáveis pode causar erros e impedir a correta implantação do sistema.
+
+## Primeiros passos
+
+Use esta seção para mostrar os primeiros passos para usar a aplicação. Lembre-se que esta parte deve ser focada no uso pelos clientes finais da aplicação, portanto, seja objetivo e use _screenshots_ quando necessário.
 
 ## Autores e histórico
 
+Este sistema foi desenvolvido pela seguinte equipe:
+
+- [Fulano](https://github.com/fulano) (fulano@email.com)
+- [Sicrano](https://github.com/sicrano) (sicrano@email.com)
+- ....
+
+Orientado pelo professor [Beltrano Silva](https://github.com/beltrano-silva) e proposto por XXXX YYYY.
+
+> :warning: Se o projeto for de continuidade, vocẽ deverá mencionar qual e criar um link para o projeto original.
+
 ## Licença
+
+Este sistema está disponível sob a licença [XXXX](https://opensource.org/licenses/).
+
+> :warning: Você deve discutir a licença com seu professor orientador!
