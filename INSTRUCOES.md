@@ -37,3 +37,20 @@ A atual estrutura sugere:
 ## Sobre os arquivos _.keep_
 
 Em alguns diretórios, foram colocados arquivos com nome `.keep`. Tais arquivos não tem valor e podem ser deletados a qualquer momento. O propósito destes é manter a existência das pastas desde que o sistema de controle git não envia diretórios arquivos para o repositório.
+
+## Sobre o uso de multiplos repositórios
+
+Em algumas situações as equipes poderão optar por uma arquitetura que usa de múltiplos projetos que são posteriormente integrados em uma única aplicação. Nestes casos algumas alternativas podem ser adotadas:
+
+**Criação de repositórios GitHub dedicados**: As equipes podem optar pela criação de repositórios dedicados à cada projeto. Neste caso é aconselhável a criação de um repositório centralizador que é um link para os sub-projetos.
+
+Neste caso, o repositório central poderá reunir os recursos e artefatos que são comuns e/ou não específicos de cada um dos sub-projetos (por exemplo, documentações e instruções de uso).
+
+É extremamente recomendado o uso de submodules do git.
+
+- https://git-scm.com/book/en/v2/Git-Tools-Submodules
+- https://github.blog/2016-02-01-working-with-submodules
+
+**Uso de Monorepo:** Monorepos são repositórios que reunem diversos subprojetos dentro do mesmo repositório. Para isso, existem diversas ferramentas, para diversas linguagens de programação, que ajudam a gerenciar tais recursos da melhor maneira.
+
+Neste caso, as equipes não precisarão criar novos projetos e poderão simplesmente adaptar a estrutura proposta às necessidades próprias.
