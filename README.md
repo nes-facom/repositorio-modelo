@@ -12,13 +12,13 @@ Use desta seção para apresentar seu produto de forma simples e sussinta, assim
 
 ## Estrutura do documento
 
-- [Descrição do projeto](#descricao)
+- [Descrição do projeto](#descri%C3%A7%C3%A3o-do-projeto)
 - [Funcionalidades](#funcionalidades)
 - [Requisitos](#requisitos)
-- [Instalação](#instalacao)
+- [Instalação](#instala%C3%A7%C3%A3o--implanta%C3%A7%C3%A3o)
 - [Primeiros passos](#primeiros-passos)
-- [Autores e histórico](#autores-e-historico)
-- [Licença](#licenca)
+- [Autores e histórico](#autores-e-hist%C3%B3rico)
+- [Licença](#licen%C3%A7a)
 
 ## Descrição do projeto
 
