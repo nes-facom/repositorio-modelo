@@ -8,6 +8,7 @@
 - [Sobre a estrutura de diretórios](#sobre-a-estrutura-de-diret%C3%B3rios)
 - [Sobre os arquivos .keep](#sobre-os-arquivos-keep)
 - [Sobre o uso de multiplos repositórios](#sobre-o-uso-de-multiplos-reposit%C3%B3rios)
+- [Uso de ferramentas integradas no GitHub](#uso-de-ferramentas-integradas-no-github)
 
 ## Começando com o modelo
 
@@ -61,3 +62,11 @@ Neste caso, o repositório central poderá reunir os recursos e artefatos que s�
 **Uso de Monorepo:** Monorepos são repositórios que reunem diversos subprojetos dentro do mesmo repositório. Para isso, existem diversas ferramentas, para diversas linguagens de programação, que ajudam a gerenciar tais recursos da melhor maneira.
 
 Neste caso, as equipes não precisarão criar novos projetos e poderão simplesmente adaptar a estrutura proposta às necessidades próprias.
+
+## Uso de ferramentas integradas no GitHub
+
+Durante o desenvolvimento das atividades da disciplina é comum a necessidade de uso de ferramentas de suporte, como ferramentas de gestão de atividades e pacotes. GitHub, como uma ferramenta de codificação social moderna, oferece diversas ferramentas integradas que podem ajudar. Algumas delas são apresentadas a seguir:
+
+**Quadros Kanban:** Todo projeto hospedado no GitHub tem, por padrão, habilitado a opção "Projetos" (uma aba na parte superior) que permite, inclusive, a criação de quadros kanban para gestão das atividades de desenvolvimento. A principal vantagem consiste na integração dos cartões criados à issues e pull requests da própria plataforma, facilitando a sincronização de tais recursos. Este modelo fornece um projeto modelo de nome "Backlog" como forma ilustrativa de uso. Detalhes podem ser encontrados em https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards.
+
+**Milestones:** Milestones permitem agrupar um conjunto de issues ou pull requests como forma de facilitar o acompanhamento do progresso das atividades. Neste sentido, milestones podem ser usadas para definição e acompanhamento das atividades das sprints. Detalhes podem ser encontrados em https://docs.github.com/pt/issues/using-labels-and-milestones-to-track-work/about-milestones.
