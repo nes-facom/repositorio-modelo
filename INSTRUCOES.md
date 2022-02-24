@@ -2,6 +2,13 @@
 
 > :warning: Este repositório é somente um modelo e, portanto, pode ser adaptado no que for necessário.
 
+## Estrutura do Documento
+
+- [Começando com o modelo](#come%C3%A7ando-com-o-modelo)
+- [Sobre a estrutura de diretórios](#sobre-a-estrutura-de-diret%C3%B3rios)
+- [Sobre os arquivos .keep](#sobre-os-arquivos-keep)
+- [Sobre o uso de multiplos repositórios](#sobre-o-uso-de-multiplos-reposit%C3%B3rios)
+
 ## Começando com o modelo
 
 A seguir são apresentadas algumas instruções de como você pode fazer o melhor uso deste modelo.
